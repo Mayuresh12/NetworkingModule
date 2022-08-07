@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAC53983289F395500366599 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC53982289F395500366599 /* RemoteFeedLoader.swift */; };
 		EAD15734289D0D2500B2A32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD15733289D0D2500B2A32F /* AppDelegate.swift */; };
 		EAD15736289D0D2500B2A32F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD15735289D0D2500B2A32F /* SceneDelegate.swift */; };
 		EAD15738289D0D2500B2A32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD15737289D0D2500B2A32F /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EAC53982289F395500366599 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		EAD15730289D0D2500B2A32F /* Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD15733289D0D2500B2A32F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD15735289D0D2500B2A32F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EAC53981289F392C00366599 /* Feed API */ = {
+			isa = PBXGroup;
+			children = (
+				EAC53982289F395500366599 /* RemoteFeedLoader.swift */,
+			);
+			path = "Feed API";
+			sourceTree = "<group>";
+		};
 		EAD15727289D0D2500B2A32F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +95,7 @@
 		EAD15732289D0D2500B2A32F /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				EAC53981289F392C00366599 /* Feed API */,
 				EAD15733289D0D2500B2A32F /* AppDelegate.swift */,
 				EAD15735289D0D2500B2A32F /* SceneDelegate.swift */,
 				EAD15737289D0D2500B2A32F /* ViewController.swift */,
@@ -212,6 +223,7 @@
 				EAD15738289D0D2500B2A32F /* ViewController.swift in Sources */,
 				EAD15734289D0D2500B2A32F /* AppDelegate.swift in Sources */,
 				EAD157AC289D1A3500B2A32F /* FeedLoader.swift in Sources */,
+				EAC53983289F395500366599 /* RemoteFeedLoader.swift in Sources */,
 				EAD15736289D0D2500B2A32F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
