@@ -15,6 +15,7 @@
 		EA89A23C29052075004EF241 /* EssentialFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89A23B29052075004EF241 /* EssentialFeedUITests.swift */; };
 		EA89A23E29052075004EF241 /* EssentialFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89A23D29052075004EF241 /* EssentialFeedUITestsLaunchTests.swift */; };
 		EA89A24B29052096004EF241 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89A24A29052096004EF241 /* FeedItem.swift */; };
+		EA89A24D2905223B004EF241 /* FeedLoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89A24C2905223B004EF241 /* FeedLoaderProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EA89A23B29052075004EF241 /* EssentialFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedUITests.swift; sourceTree = "<group>"; };
 		EA89A23D29052075004EF241 /* EssentialFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EA89A24A29052096004EF241 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		EA89A24C2905223B004EF241 /* FeedLoaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EA89A22529052075004EF241 /* Main.storyboard */,
 				EA89A22829052075004EF241 /* EssentialFeed.entitlements */,
 				EA89A24A29052096004EF241 /* FeedItem.swift */,
+				EA89A24C2905223B004EF241 /* FeedLoaderProtocol.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA89A24D2905223B004EF241 /* FeedLoaderProtocol.swift in Sources */,
 				EA89A22229052073004EF241 /* ViewController.swift in Sources */,
 				EA89A22029052073004EF241 /* AppDelegate.swift in Sources */,
 				EA89A24B29052096004EF241 /* FeedItem.swift in Sources */,
