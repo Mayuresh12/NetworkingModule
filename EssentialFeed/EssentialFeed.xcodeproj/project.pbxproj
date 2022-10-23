@@ -104,8 +104,7 @@
 				EA89A22329052075004EF241 /* Assets.xcassets */,
 				EA89A22529052075004EF241 /* Main.storyboard */,
 				EA89A22829052075004EF241 /* EssentialFeed.entitlements */,
-				EA89A24A29052096004EF241 /* FeedItem.swift */,
-				EA89A24C2905223B004EF241 /* FeedLoaderProtocol.swift */,
+				EA89A24E290522F1004EF241 /* FeedFeature */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -125,6 +124,15 @@
 				EA89A23D29052075004EF241 /* EssentialFeedUITestsLaunchTests.swift */,
 			);
 			path = EssentialFeedUITests;
+			sourceTree = "<group>";
+		};
+		EA89A24E290522F1004EF241 /* FeedFeature */ = {
+			isa = PBXGroup;
+			children = (
+				EA89A24A29052096004EF241 /* FeedItem.swift */,
+				EA89A24C2905223B004EF241 /* FeedLoaderProtocol.swift */,
+			);
+			path = FeedFeature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
