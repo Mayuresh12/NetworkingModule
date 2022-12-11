@@ -114,6 +114,17 @@ class RemoteFeedLoaderTests: XCTestCase {
         return (sut, client)
     }
     
+    private func makeItem(id: UUID,
+                          description: String? = nil,
+                          location: String? = nil,
+                          imageUrl: URL) -> FeedItem {
+        let item = FeedItem(id: id,
+                            description: description,
+                            location: location,
+                            imageURL: imageUrl)
+        return item
+    }
+    
     private func expect(_ sut: RemoteFeedLoader,
                         toCompleteWithResult result: RemoteFeedLoader.Result,
                         when action: () -> Void,
