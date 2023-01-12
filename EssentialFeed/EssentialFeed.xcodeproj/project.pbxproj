@@ -18,6 +18,7 @@
 		EA89A24D2905223B004EF241 /* FeedLoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89A24C2905223B004EF241 /* FeedLoaderProtocol.swift */; };
 		EA89A25029069801004EF241 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89A24F29069801004EF241 /* RemoteFeedLoaderTests.swift */; };
 		EA89A253290AA256004EF241 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89A252290AA256004EF241 /* RemoteFeedLoader.swift */; };
+		EAB8132F296C18F100A9A23E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8132E296C18F100A9A23E /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EA89A24C2905223B004EF241 /* FeedLoaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderProtocol.swift; sourceTree = "<group>"; };
 		EA89A24F29069801004EF241 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		EA89A252290AA256004EF241 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		EAB8132E296C18F100A9A23E /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		EA89A21E29052073004EF241 /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
+				EAB81330296C18F700A9A23E /* FeedAPI */,
 				EA89A251290AA241004EF241 /* RemoteFeedLoader */,
 				EA89A21F29052073004EF241 /* AppDelegate.swift */,
 				EA89A22129052073004EF241 /* ViewController.swift */,
@@ -147,6 +150,14 @@
 				EA89A252290AA256004EF241 /* RemoteFeedLoader.swift */,
 			);
 			path = RemoteFeedLoader;
+			sourceTree = "<group>";
+		};
+		EAB81330296C18F700A9A23E /* FeedAPI */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8132E296C18F100A9A23E /* HTTPClient.swift */,
+			);
+			path = FeedAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +292,7 @@
 			files = (
 				EA89A24D2905223B004EF241 /* FeedLoaderProtocol.swift in Sources */,
 				EA89A22229052073004EF241 /* ViewController.swift in Sources */,
+				EAB8132F296C18F100A9A23E /* HTTPClient.swift in Sources */,
 				EA89A22029052073004EF241 /* AppDelegate.swift in Sources */,
 				EA89A253290AA256004EF241 /* RemoteFeedLoader.swift in Sources */,
 				EA89A24B29052096004EF241 /* FeedItem.swift in Sources */,
